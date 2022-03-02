@@ -6,7 +6,6 @@
 - Shortlist / deshortlist items in the list by clicking the “heart” button. Note that shortlisted items heart button is filled in 
 - Items that have been discontinued should appear greyed out
 - List of shortlisted items should be accessible from the “shortlist drawer” in the top right corner of the page. Users should be able to remove items from the drawer, and the list should reflect the changes and vice-versa 
-- 
 
 ## Technologies
 
@@ -24,8 +23,9 @@ To install and run this project you would need to have installed:
 To run frontend:
 ```
 $ git clone https://github.com/jiokeokwuosa/Cara-NextJs.git
+$ cd Cara-NextJs
 $ npm install
-$ npm start
+$ npm run dev
 ```
 
 ## UI
