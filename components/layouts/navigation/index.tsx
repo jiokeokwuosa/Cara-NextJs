@@ -14,17 +14,16 @@ const NavBar: FC<Props> = ({ data, handleShortListing }) => {
     if (data && data.length) {
       return data.map((product: any) => {
         if (product.shortlisted) {
-          return <><a className={styles.dropDownBox} onClick={handleShortListing.bind(this,product.id,'remove')}>{product.name} &nbsp;&nbsp;&nbsp; <strong>X</strong></a><br/></>
-         
+          return <><a key={product.id} className={styles.dropDownBox} onClick={handleShortListing.bind(this,product.id,'remove')}>{product.name} &nbsp;&nbsp;&nbsp; <strong>X</strong></a><br/></>         
         }
       })
     }
   }
   return (
-    <nav className='container align-right'>
+    <nav className='container align-right' data-testid="navbar">
       <Dropdown>
         <Dropdown.Toggle id="dropdown-basic" className={styles.btnPrimaryOveride}>
-          <Image src={Favourite} height={25} width={25} />
+          <Image src={Favourite} height={25} width={25} />          
         </Dropdown.Toggle>
         <Dropdown.Menu>
           {displayProducts()}

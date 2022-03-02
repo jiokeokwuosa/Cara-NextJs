@@ -13,3 +13,7 @@
 .dropDownBox strong{
    cursor: pointer;
 }
+.navImage{
+    height: 25px;
+    width:25px
+}

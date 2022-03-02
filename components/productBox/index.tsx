@@ -18,7 +18,7 @@ type Props = {
 
 const ProductBox: FC<Props> = ({ product, handleShortListing }) => {
   return (
-    <div className={`col-md-3 col-6 relative ${styles.productBM}`}>
+    <div className={`col-md-3 col-6 relative ${styles.productBM}`} data-testid="product">
       <Image src={product.image} width={250} height={300} className={`centerImage ${product.discontinued?styles.greyOut:''}`}/>
       {!product.discontinued ?
         <span className={styles.heartIcon}>
@@ -27,8 +27,8 @@ const ProductBox: FC<Props> = ({ product, handleShortListing }) => {
           </a>
         </span>
         : ''}
-      <p className={styles.productName}>{product.name}</p>
-      <p className={styles.productPrice}>${product.price}</p>
+      <p data-testid="productName" className={styles.productName}>{product.name}</p>
+      <p data-testid="productPrice" className={styles.productPrice}>${product.price}</p>
     </div>
   )
 }
