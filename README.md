@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Carra Coding Task 
 
-## Getting Started
+## Interface requirements:
 
-First, run the development server:
+- Display the list of provided items from the API.
+- Shortlist / deshortlist items in the list by clicking the “heart” button. Note that shortlisted items heart button is filled in 
+- Items that have been discontinued should appear greyed out
+- List of shortlisted items should be accessible from the “shortlist drawer” in the top right corner of the page. Users should be able to remove items from the drawer, and the list should reflect the changes and vice-versa 
+- 
 
-```bash
-npm run dev
-# or
-yarn dev
+## Technologies
+
+- Next Js(React)
+- Typescript
+- Jest
+
+## Requirements and Installation
+
+To install and run this project you would need to have installed:
+- Node Js
+- Git
+- Clone the project and run with the commands below
+
+To run frontend:
+```
+$ git clone https://github.com/jiokeokwuosa/Cara-NextJs.git
+$ npm install
+$ npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## UI
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![Screenshot (588)](https://user-images.githubusercontent.com/33726993/156447916-e6683e9b-f30f-4e8d-ad88-ec8c03d18e5e.png)
+![Screenshot (589)](https://user-images.githubusercontent.com/33726993/156447919-473d1f72-2ee7-4429-8b96-bba1a075fb13.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Testing
 
-## Learn More
+$ npm test
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Okwuosa Chijioke (Okwuosachijioke@gmail.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is licensed for your use, modification and distribution under the [MIT license.](https://opensource.org/licenses/MIT)
