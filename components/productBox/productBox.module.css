@@ -1,0 +1,21 @@
+.productBM{
+    margin-bottom: 25px;
+}
+.heartIcon{
+    display: block;
+    margin: auto;
+    right: 40px;
+    position: absolute;
+    bottom: 65px;
+    cursor: pointer;
+}
+.productName{
+    font-size: 16px;
+}
+.productPrice{
+    text-decoration: dotted;
+    margin-top: -16px;
+}
+.greyOut{
+    opacity: 0.2;
+}
