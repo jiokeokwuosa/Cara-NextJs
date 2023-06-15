@@ -30,9 +30,6 @@ $ npm run dev
 
 ## UI
 
-![Screenshot (588)](https://user-images.githubusercontent.com/33726993/156447916-e6683e9b-f30f-4e8d-ad88-ec8c03d18e5e.png)
-![Screenshot (589)](https://user-images.githubusercontent.com/33726993/156447919-473d1f72-2ee7-4429-8b96-bba1a075fb13.png)
-
 
 ## Testing
 
